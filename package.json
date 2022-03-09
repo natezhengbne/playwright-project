@@ -1,0 +1,16 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test:everest:car:local": "npx playwright test tests/everest-car --project=chromium --config=config/everest-car.local.playwright.config.ts",
+    "test:everest:car:prod": "npx playwright test tests/everest-car-prod --config=config/everest-car.prod.playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2"
+  }
+}
